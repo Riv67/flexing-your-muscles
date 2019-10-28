@@ -19,6 +19,7 @@ width: 100%;
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   padding: 1.5rem 0;
 
@@ -54,6 +55,7 @@ width: 100%;
 }
 
 .social > li {
+  margin-left: auto;
   margin: 0 .5em;
   width: 3em;
 }
