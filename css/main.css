@@ -12,8 +12,9 @@ body {
   margin: 0;
 }
 
-img {display: block;
-width: 100%;
+img {
+  display: block;
+  width: 100%;
 }
 
 .footer {
@@ -26,7 +27,7 @@ width: 100%;
   background-color: #8bc9d9;
   border-top: 3px solid #005e76;
 
-  color: #005e76
+  color: #005e76;
 }
 
 .footer h2 {
@@ -37,12 +38,12 @@ width: 100%;
 .footer ul {
   margin-top: 0;
   margin-bottom: 1.5rem;
-  padding-left:0;
-  list-style-type:none;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 .footer a {
-  color:#003442;
+  color: #003442;
 }
 
 .links {
@@ -50,12 +51,12 @@ width: 100%;
 }
 
 .social {
+  margin-left: auto;
   padding: 0 1rem;
   display: flex;
 }
 
 .social > li {
-  margin-left: auto;
   margin: 0 .5em;
   width: 3em;
 }
